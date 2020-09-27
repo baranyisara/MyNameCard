@@ -1,0 +1,96 @@
+html {
+  background-color: hsla(19, 90%, 51%, 0.9);
+  margin: 30px;
+  padding: 30px;
+  font-size: 70px;
+}
+
+* {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+
+#picture {
+  width: 33%;
+  padding: 20px;
+}
+
+#text-box-1 {
+  color: antiquewhite;
+  width: 100%;
+  padding: 45px;
+  border-radius: 10%;
+  position: relative;
+  background-color: firebrick;
+  margin: 45px;
+  text-align: center;
+}
+
+#text-box-2 {
+  color:antiquewhite;
+  background-color:brown;
+  width: 40%;
+  border-radius: 15%;
+  padding: 45px;
+  margin: 50px;
+}
+
+#text-box-3 {
+  background-color: seagreen;
+  color: antiquewhite;
+  border-radius: 15%;
+  width: 40%;
+  padding: 45px;
+  margin: 50px;
+}
+
+.icon {
+  width: 5%;
+  float: right;
+  position: absolute;
+  display: inline;
+  top: 20px;
+}
+
+img {
+  filter: hue-rotate(12.12rad) contrast(110%) saturate(170%);
+  border-radius: 15%;
+  width: 100%;
+}
+
+
+img:hover {
+  filter:brightness(100%) contrast(110%) hue-rotate(5.5rad) saturate(170%);
+}
+
+#profile:hover {
+  transform:scale(1.5);
+  
+}
+
+#profile {
+  transition: all 0.8s ease-in-out;
+  position: relative;
+  z-index: 8;
+}
+
+.right{
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.icons, h1, p {
+  text-align:center;
+}
+
+.icons {
+  width: 41%;
+}
+
+ul {
+  list-style-type: none;
+}
